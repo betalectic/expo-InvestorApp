@@ -36,15 +36,7 @@ To log in to your Expo account, run:
 eas login
 ```
 
-### 5. Configure the App
-
-Configure your app by running:
-
-```bash
-eas build:configure
-```
-
-### 6. Build for iOS
+### 5. Build for iOS
 
 To build the app for iOS, run:
 
@@ -52,7 +44,7 @@ To build the app for iOS, run:
 eas build --profile production --platform ios
 ```
 
-### 7. Submit the App
+### 6. Submit the App
 
 After the build is successful, make sure to update the API key in `eas.json` and then submit the app:
 

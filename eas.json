@@ -1,0 +1,27 @@
+{
+  "cli": {
+    "version": ">= 15.0.3",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
+      "autoIncrement": true
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "ascApiKeyPath": "/Users/betalectic/Downloads/AuthKey_RXBR4CQA3G.p8",
+        "ascApiKeyIssuerId": "c5076626-14ae-4eac-ad96-b2f1ba9de3be",
+        "ascApiKeyId": "RXBR4CQA3G"
+      }
+    }
+  }
+}
