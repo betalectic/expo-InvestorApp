@@ -29,6 +29,8 @@ export default function Index() {
     setCanGoBack(navState.canGoBack);
   };
 
+  console.log("hi", process.env.EXPO_PUBLIC_WEBVIEW_URL);
+
   return (
     <SafeAreaView style={styles.container}>
       <WebView
